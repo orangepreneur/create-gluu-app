@@ -1,5 +1,5 @@
 builds:
-  - binary: drum-roll
+  - binary: create-gluu-app
     goos:
       - windows
       - darwin

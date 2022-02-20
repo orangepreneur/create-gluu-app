@@ -1,6 +1,6 @@
 {
   "name": "create-gluu-app",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "CLI to create Gluu project",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,11 @@
     "name": "create-gluu-app",
     "path": "./bin",
     "url": "https://github.com/orangepreneur/create-gluu-app/releases/download/v{{version}}/create-gluu-app_{{version}}_{{platform}}_{{arch}}.tar.gz"
- }, "repository": {
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/orangepreneur/create-gluu-app.git"
   },
-  
   "keywords": [
     "html",
     "css",
@@ -24,13 +24,8 @@
     "framework",
     "gluu"
   ],
-  "files": [
-    "dist",
-    "postinstall.js"
-  ],
   "dependencies": {
-    "go-npm": "^0.1.9",
-    "mkdirp": "^1.0.4"
+    "go-npm": "^0.1.9"
   },
   "author": "Mukesh Joshi",
   "license": "ISC",
