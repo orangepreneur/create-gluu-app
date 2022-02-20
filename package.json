@@ -1,0 +1,40 @@
+{
+  "name": "create-gluu-app",
+  "version": "0.0.1",
+  "description": "CLI to create Gluu project",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
+  },
+  "goBinary": {
+    "name": "create-gluu-app",
+    "path": "./bin",
+    "url": "https://github.com/user/my-go-package/releases/download/v{{version}}/myGoPackage_{{version}}_{{platform}}_{{arch}}.tar.gz"
+ }, "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangepreneur/create-gluu-app.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "partial",
+    "framework",
+    "gluu"
+  ],
+  "files": [
+    "dist",
+    "postinstall.js"
+  ],
+  "dependencies": {
+    "go-npm": "^0.1.9",
+    "mkdirp": "^1.0.4"
+  },
+  "author": "Mukesh Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orangepreneur/create-gluu-app/issues"
+  },
+  "homepage": "https://github.com/orangepreneur/create-gluu-app#readme"
+}
