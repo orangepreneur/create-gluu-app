@@ -1,6 +1,6 @@
 {
   "name": "create-gluu-app",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "CLI to create Gluu project",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "goBinary": {
     "name": "create-gluu-app",
     "path": "./bin",
-    "url": "https://github.com/orangepreneur/create-gluu-app/releases/download/v{{version}}/myGoPackage_{{version}}_{{platform}}_{{arch}}.tar.gz"
+    "url": "https://github.com/orangepreneur/create-gluu-app/releases/download/v{{version}}/create-gluu-app_{{version}}_{{platform}}_{{arch}}.tar.gz"
  }, "repository": {
     "type": "git",
     "url": "git+https://github.com/orangepreneur/create-gluu-app.git"
