@@ -1,6 +1,6 @@
 {
   "name": "create-gluu-app",
-  "version": "0.0.9",
+  "version": "0.0.15",
   "description": "CLI to create Gluu project",
   "main": "index.js",
   "scripts": {
